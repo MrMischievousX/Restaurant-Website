@@ -15,12 +15,7 @@ ham.addEventListener("click", function () {
     nav.style.display = "flex";
   }
 });
-window.onbeforeunload = function (event) {
-  event.location.reload(true);
-};
-window.addEventListener("resize", function () {
-  window.location.href = "index.html";
-});
+
 
 console.log(card);
 starter.addEventListener("click", function () {
