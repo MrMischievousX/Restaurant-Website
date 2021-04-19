@@ -15,52 +15,29 @@ ham.addEventListener("click", function () {
     nav.style.display = "flex";
   }
 });
-
+window.onbeforeunload = function (event) {
+  event.location.reload(true);
+};
+window.addEventListener("resize", function () {
+  window.location.href = "index.html";
+});
 
 console.log(card);
 starter.addEventListener("click", function () {
   console.log("starter");
-  container[0].classList.add("active");
-  container[0].classList.remove("noactive");
-  container[1].classList.add("noactive");
-  container[1].classList.remove("active");
-  container[2].classList.add("noactive");
-  container[2].classList.remove("active");
-  container[3].classList.add("noactive");
-  container[3].classList.remove("active");
+  i = 0;
 });
 maindish.addEventListener("click", function () {
   console.log("starter");
-  container[1].classList.add("active");
-  container[1].classList.remove("noactive");
-  container[0].classList.add("noactive");
-  container[0].classList.remove("active");
-  container[2].classList.add("noactive");
-  container[2].classList.remove("active");
-  container[3].classList.add("noactive");
-  container[3].classList.remove("active");
+  i = 1;
 });
 desert.addEventListener("click", function () {
   console.log("starter");
-  container[2].classList.add("active");
-  container[2].classList.remove("noactive");
-  container[1].classList.add("noactive");
-  container[1].classList.remove("active");
-  container[0].classList.add("noactive");
-  container[0].classList.remove("active");
-  container[3].classList.add("noactive");
-  container[3].classList.remove("active");
+  i = 2;
 });
 drinks.addEventListener("click", function () {
   console.log("starter");
-  container[3].classList.add("active");
-  container[3].classList.remove("noactive");
-  container[1].classList.add("noactive");
-  container[1].classList.remove("active");
-  container[2].classList.add("noactive");
-  container[2].classList.remove("active");
-  container[0].classList.add("noactive");
-  container[0].classList.remove("active");
+  i = 3;
 });
 
 let i = 0;
