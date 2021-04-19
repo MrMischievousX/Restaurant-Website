@@ -406,9 +406,9 @@ footer .links :nth-child(1) {
   }
   #nav {
     margin: 12rem auto 0 auto;
-    position: absolute;
+    position: fixed;
     background: rgba(0, 0, 0, 0.8);
-    width: 125vw;
+    width: 130vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -419,7 +419,7 @@ footer .links :nth-child(1) {
     padding: 1.5rem;
   }
   .welcome > h1 {
-    width: 125vw;
+    width: 130vw;
     height: 140vh;
     margin: 0;
     display: flex;
@@ -427,12 +427,12 @@ footer .links :nth-child(1) {
     align-items: center;
   }
   header {
-    width: 125vw;
+    width: 130vw;
     height: 140vh;
   }
   #about {
     display: flex;
-    width: 125vw;
+    width: 130vw;
     height: 140vh;
     flex-direction: column;
     background-color: #e6e6e6;
@@ -461,11 +461,11 @@ footer .links :nth-child(1) {
     border-radius: 50%;
   }
   #today {
-    width: 125vw;
+    width: 130vw;
     height: 140vh;
   }
   .overlay {
-    width: 125vw;
+    width: 130vw;
     height: 140vh;
     position: absolute;
     background-image: url("./sources/special_menu_bg.jpg");
@@ -477,7 +477,7 @@ footer .links :nth-child(1) {
   .overlay::before {
     content: "";
     display: inline-block;
-    width: 125vw;
+    width: 130vw;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.67);
     position: absolute;
@@ -485,7 +485,7 @@ footer .links :nth-child(1) {
     left: 0;
   }
   #today > h1 {
-    width: 125vw;
+    width: 130vw;
     font-size: 3rem;
     padding: 6vw 0 1vw 0;
     text-align: center;
@@ -515,7 +515,7 @@ footer .links :nth-child(1) {
     border: 4px solid white;
   }
   #gallery {
-    width: 125vw;
+    width: 130vw;
     height: 140vh;
   }
   #gallery > div p {
@@ -538,7 +538,7 @@ footer .links :nth-child(1) {
     border: 4px solid #e75b1e;
   }
   #gallery > div > h1 {
-    width: 125vw;
+    width: 130vw;
     font-size: 3rem;
     margin: auto;
     padding: 8rem 0 2rem 0;
@@ -552,7 +552,7 @@ footer .links :nth-child(1) {
     display: block;
   }
   .overlay2 {
-    width: 125vw;
+    width: 130vw;
     height: 125vh;
     position: absolute;
     background-image: url("./sources/team_bg.jpg");
@@ -564,7 +564,7 @@ footer .links :nth-child(1) {
   .overlay2::before {
     content: "";
     display: inline-block;
-    width: 125vw;
+    width: 130vw;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.67);
     position: absolute;
@@ -580,7 +580,7 @@ footer .links :nth-child(1) {
     font-family: "Lobster", cursive;
   }
   #menu > p {
-    width: 125vw;
+    width: 130vw;
     font-size: 1.8rem;
     margin: 1rem auto;
     text-align: center;
@@ -662,7 +662,7 @@ footer .links :nth-child(1) {
   }
 
   .overlay3 {
-    width: 125vw;
+    width: 130vw;
     height: 50vh;
     position: absolute;
     background-image: url("./sources/blog_bg.jpg");
@@ -673,7 +673,7 @@ footer .links :nth-child(1) {
 
   footer {
     position: relative;
-    width: 125vw;
+    width: 130vw;
     height: 50vh;
     margin: 6.5rem 0 0 0;
     display: flex;
@@ -712,7 +712,8 @@ footer .links :nth-child(1) {
   .copy {
     background-color: black;
     padding: 1rem;
-    width: 122vw;
+    width: 124vw;
+    margin: auto 1.5vw;
     position: relative;
     letter-spacing: 3px;
     text-align: center;
@@ -726,7 +727,7 @@ footer .links :nth-child(1) {
     justify-content: center;
   }
   #hamburger > img {
-
+    position: fixed;
     width: 100px;
     height: 100px;
     z-index: 10000;
