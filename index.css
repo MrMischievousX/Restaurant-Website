@@ -726,7 +726,7 @@ footer .links :nth-child(1) {
     justify-content: center;
   }
   #hamburger > img {
-    position: fixed;
+
     width: 100px;
     height: 100px;
     z-index: 10000;
